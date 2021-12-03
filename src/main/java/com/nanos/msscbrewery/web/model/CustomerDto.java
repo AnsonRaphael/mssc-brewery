@@ -6,13 +6,12 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.UUID;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class BeerDto {
-    private UUID beerId;
-    private String beerName;
-    private String beerStyle;
-    private Long upc;
+public class CustomerDto {
+    private UUID customerId;
+    private String customerName;
 }
